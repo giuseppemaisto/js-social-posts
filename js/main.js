@@ -5,7 +5,7 @@ const posts = [
         "media": "https://unsplash.it/600/300?image=171",
         "author": {
             "name": "Phil Mangione",
-            "image": "https://unsplash.it/300/300?image=15"
+            "image": "https://unsplash.it/50/50?image=15"
         },
         "likes": 80,
         "created": "2021-06-25"
