@@ -108,3 +108,28 @@ function StampaPost(){
 }
 
 StampaPost()
+
+//2-creo tasto like e contatore like 
+//2.1- definisco evento click per cambio colore tasto 
+//2.2 - definisco evento click per conteggio like 
+
+const miPiace = document.getElementsByClassName('js-like-button')
+console.log(miPiace)
+let likes=[];
+
+for(let i = 0; i<miPiace.length; i++){
+    miPiace[i].addEventListener('click', function(){
+        const postid = this.dataset.postid
+        const likes = document.getElementById(`like-counter-${postid}`)
+
+        const likesNumber = parseInt(likes.innerText)
+
+        likes.innerText = likesNumber + 1;
+        console.log(likesNumber)
+
+        
+    })
+}
+
+
+
