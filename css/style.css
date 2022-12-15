@@ -35,7 +35,10 @@ h1 {
     padding: 16px;
     background-color: white;
 }
-
+.profile-pic{
+    width: 20px;
+    height: 20px;
+}
 .post__header {
     margin-bottom: 16px;
 }

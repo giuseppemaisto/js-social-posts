@@ -107,4 +107,4 @@ function StampaPost(){
  return container;
 }
 
-StampaPost();
+StampaPost()
